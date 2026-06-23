@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================================== -->
+    <!-- Rotate Screen -->
+    <!-- ===================================== -->
+
+    <div id="rotate-screen" class="screen show">
+
+        <img src="Blender 3D/assets/images/icons8-rotate-screen-90.png" alt="rotate">
+
+        <p>เว็บไซต์นี้ออกแบบมาสำหรับการรับชมในแนวนอน</p>
+
+        <p>รบกวนหมุนอุปกรณ์ก่อนเข้ารับชมด้วยนะคะ</p>
+
+    </div>
+
+    <!-- ===================================== -->
+    <!-- Intro -->
+    <!-- ===================================== -->
+
+
+    <section id="intro-screen" class="scene">
+
+        <div class="gift-lid"></div>
+
+        <div class="intro-box">
+
+            <div class="intro-star">𔓐𑇓</div>
+
+            <h1>ถึงคนสำคัญของวันนี้</h1>
+
+            <p>
+                คงสงสัยอยู่ใช่ไหมล่ะคะ
+                ว่านี่คืออะไรกันน้า
+            </p>
+
+            <p>
+                จะไม่ปล่อยให้พี่เพลงต้องสงสัยนานหรอก
+            </p>
+
+            <p>
+                แต่เดี๋ยวก่อนค่ะ !
+                ก่อนจะเข้าไป...
+            </p>
+
+            <p>
+                ขอเช็กก่อนว่าคนสำคัญของวันนี้
+                มาถึงแล้วจริง ๆ ใช่ไหมนะ
+            </p>
+
+<div class="birthday-check">
+
+    <input
+        type="password"
+        id="birthday-code"
+        maxlength="4"
+        inputmode="numeric"
+        placeholder="...."
+    >
+
+    <button id="verify-btn">
+        ยืนยัน
+    </button>
+
+    <p class="hint">
+        (คำใบ้: ไม่มีให้หรอกนะ เพราะตัวจริงจะรู้อยู่แล้ว)
+    </p>
+
+    <p id="wrong-message"></p>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ===================================== -->
+    <!-- Cake Scene -->
+    <!-- ===================================== -->
+
+    <section id="cake-scene" class="scene">
+
+    <div id="focus-blur"></div>    
+
+    <div id="cake-container">
+
+        <img
+            src="Blender 3D/Rendered Images/birthday-cake-dark.jpg"
+            id="cake-dark"
+            alt="cake dark"
+        >
+        <img
+            src="Blender 3D/Rendered Images/birthday-cake-light.jpg"
+            id="cake-light"
+            alt="cake light"
+        >
+
+        <div id="flame"></div>
+        <div id="smoke"></div>
+        <div id="candle-glow"></div>
+
+        <div id="smoke-container">
+           <div class="smoke"></div>
+           <div class="smoke"></div>
+           <div class="smoke"></div>
+
+</div>
+
+    </div>
+
+        <div id="lens-flare"></div>
+
+    </section>
+
+    <!-- Wish screen -->
+
+<div id="wish-screen">
+    <div class="wish-box">
+
+        <h2 id="wish-title">
+            ตั้งจิตอธิษฐาน
+        </h2>
+        <p id="wish-text">
+            ก่อนเป่าเทียน ลองขอพรในใจสักนิดนะคะ<br>
+            (แตะตรงไหนก็ได้เพื่อเป่าเทียน)</p>
+    </div>
+</div>
+
+</div>
+
+<div id="card-overlay">
+
+    <div id="birthday-card">
+
+        <img
+            src="Blender 3D/assets/images/birthday-card.png"
+            alt="birthday card"
+        >
+
+        <button id="close-card">
+            ปิด
+        </button>
+
+    </div>
+
+</div>
+
+<div id="replay-card">
+
+    <img
+        src="Blender 3D/assets/images/card-icon.png"
+        alt="Replay Card"
+    >
+
+</div>
+
+    <!-- ===================================== -->
+    <!-- Ending Message -->
+    <!-- ===================================== -->
+
+    <div id="ending-message">
+
+        <div class="ending-box">
+
+         <p class="line-left">ขอบคุณที่เป็นพลังงานดี ๆ ให้กันเสมอนะคะ</p>
+
+         <p class="line-right">คืนนี้ทานอาหารให้อร่อย ยิ้มเยอะ ๆ</p>
+
+         <p class="line-left">แล้วพักผ่อนให้เต็มอิ่มเลยน้า</p>
+
+         <p class="line-right">สุขสันต์วันเกิดค่ะพี่เพลง ♥︎⁠</p>
+
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
