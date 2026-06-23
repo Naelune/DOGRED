@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "MyFont";
-  src: url("Blender 3D/assets/fonts/MyFont.ttf") format("truetype");
+  src: url("MyFont.ttf") format("truetype");
 }
 
 body{
